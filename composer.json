@@ -1,0 +1,17 @@
+{
+    "name": "shineyork/tiny-laravel",
+    "description": "test......",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gaoc",
+            "email": "273354076@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShineYork\\TinyLaravel\\": "./src/"
+        }
+    },
+    "require": {}
+}
