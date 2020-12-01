@@ -16,4 +16,8 @@ class Test2{
     {
         return "hello!!!";
     }
+    public function index3()
+    {
+        return "hello!!!";
+    }
 }
