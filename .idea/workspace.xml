@@ -28,6 +28,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,7 +43,7 @@
       <updated>1606717785610</updated>
       <workItem from="1606717786621" duration="1755000" />
       <workItem from="1606738769243" duration="38000" />
-      <workItem from="1606779780977" duration="2800000" />
+      <workItem from="1606779780977" duration="3535000" />
     </task>
     <servers />
   </component>
