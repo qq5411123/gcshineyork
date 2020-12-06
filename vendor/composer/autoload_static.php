@@ -4,27 +4,27 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8bc61f6acd6220685e10b351c641d406
+class ComposerStaticInit8dd220b9634cfce611b7a798bcd325bb
 {
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'I' => 
         array (
-            'ShineYork\\TinyLaravel\\' => 22,
+            'Illuminate\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ShineYork\\TinyLaravel\\' => 
+        'Illuminate\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/..' . '/lavarel/framework/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8bc61f6acd6220685e10b351c641d406::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8bc61f6acd6220685e10b351c641d406::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8dd220b9634cfce611b7a798bcd325bb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8dd220b9634cfce611b7a798bcd325bb::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

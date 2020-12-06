@@ -1,19 +1,17 @@
 {
-    "name": "gcshineyork/tiny-laravel",
-    "description": "test......",
-    "type": "library",
+    "name": "root/tiny-laravel",
     "authors": [
         {
             "name": "gaoc",
             "email": "273354076@qq.com"
         }
     ],
+    "require": {
+    },
     "autoload": {
         "psr-4": {
-            "ShineYork\\TinyLaravel\\": "./src/"
+            "Illuminate\\": "vendor/lavarel/framework/src/"
         }
     },
-    "require": {},
     "license": "MIT~~~"
-
 }

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ShineYork\\TinyLaravel\\' => array($baseDir . '/src'),
+    'Illuminate\\' => array($vendorDir . '/lavarel/framework/src'),
 );
